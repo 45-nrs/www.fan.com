@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>蛋仔派对 & 我的自我介绍</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Comic Sans MS", "Microsoft YaHei", sans-serif;
+        }
+        body {
+            background-color: #f8f3ff;
+            color: #444;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: #fff;
+            border-radius: 24px;
+            padding: 35px;
+            box-shadow: 0 0 25px rgba(168, 120, 255, 0.15);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .header h1 {
+            color: #9d4edd;
+            font-size: 2.8rem;
+            margin-bottom: 12px;
+            text-shadow: 0 2px 4px rgba(157, 78, 221, 0.2);
+        }
+        .header p {
+            color: #777;
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+        .section {
+            margin-bottom: 50px;
+        }
+        .section h2 {
+            color: #9d4edd;
+            font-size: 2rem;
+            border-bottom: 3px dashed #e5d0ff;
+            padding-bottom: 10px;
+            margin-bottom: 25px;
+        }
+        /* 蛋仔派对介绍样式 */
+        .eggy-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            align-items: center;
+        }
+        .eggy-video {
+            flex: 1;
+            min-width: 300px;
+        }
+        .eggy-video video {
+            width: 100%;
+            border-radius: 18px;
+            border: 4px solid #f0e2ff;
+        }
+        .eggy-desc {
+            flex: 1;
+            min-width: 300px;
+        }
+        .eggy-desc p {
+            font-size: 1.15rem;
+            line-height: 1.9;
+            margin-bottom: 18px;
+            color: #555;
+        }
+        .eggy-desc span {
+            font-weight: bold;
+            color: #9d4edd;
+        }
+        /* 个人介绍样式 */
+        .me-section {
+            background-color: #fdf9ff;
+            border-radius: 20px;
+            padding: 30px;
+            border: 2px solid #f0e2ff;
+        }
+        .me-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+        .info-card {
+            flex: 1;
+            min-width: 250px;
+            background: #fff;
+            border-radius: 16px;
+            padding: 22px;
+            box-shadow: 0 4px 12px rgba(168, 120, 255, 0.1);
+        }
+        .info-card h3 {
+            color: #9d4edd;
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .info-card h3::before {
+            content: "";
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #9d4edd;
+        }
+        .info-card p {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #666;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #999;
+            font-size: 1rem;
+            padding-top: 20px;
+            border-top: 1px solid #f0e2ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 页面头部 -->
+        <div class="header">
+            <h1>蛋仔派对 & 我的游戏小站</h1>
+            <p>圆滚滚蛋仔在线闯关，主打一个快乐无极限！</p>
+        </div>
+
+        <!-- 蛋仔派对介绍区 -->
+        <div class="section">
+            <h2>关于蛋仔派对</h2>
+            <div class="eggy-section">
+                <div class="eggy-video">
+                    <!-- 嵌入GitHub仓库中的视频 -->
+                    <video controls poster="https://picsum.photos/seed/eggyPoster/600/400" preload="metadata">
+                        <source src="https://github.com/45-nrs/www.fan.com/blob/main/record_2025-10-26_17-38-48.mp4?raw=true" type="video/mp4">
+                        您的浏览器不支持视频播放，请更新浏览器后重试。
+                    </video>
+                    <p style="text-align: center; margin-top: 10px; color: #888; font-size: 0.95rem;">蛋仔派对游戏片段（点击播放）</p>
+                </div>
+                <div class="eggy-desc">
+                    <p>《蛋仔派对》是一款<span>萌系多人联机派对游戏</span>，玩家化身软乎乎的蛋仔，在脑洞大开的关卡中冲刺、跳跃、躲避障碍！</p>
+                    <p>游戏核心玩法：<span>随机关卡挑战+道具互动互坑+组队协作闯关</span>，无论是和好友开黑互闹，还是单人佛系冲分，都能收获满屏治愈感～</p>
+                    <p>最让人上头的点：失败不沮丧，毕竟谁能拒绝“滚来滚去”的快乐？每一次闯关都是新的笑点！</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 个人介绍区 -->
+        <div class="section">
+            <h2>蛋仔小岛的我</h2>
+            <div class="me-section">
+                <div class="me-info">
+                    <div class="info-card">
+                        <h3>基本信息</h3>
+                        <p><strong>蛋仔昵称</strong>：芋圆小蛋仔</p>
+                        <p><strong>游戏时长</strong>：300+小时</p>
+                        <p><strong>当前段位</strong>：恐龙蛋IV</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>游戏风格</h3>
+                        <p>主打“<strong>稳健苟分+偶尔爆发</strong>”，躲障反应快，道具使用超灵活（尤其擅长用传送球救队友）！</p>
+                        <p>不坑队友不摆烂，就算落后也会努力冲刺，主打一个“不放弃就有希望”～</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>组队宣言</h3>
+                        <p>找搭子！一起刷关卡、攒彩虹币、换皮肤～</p>
+                        <p>要求不高：能一起笑、一起扛，输了不抱怨，赢了一起庆祝就好！</p>
+                        <p><strong>常用ID</strong>：芋圆要冲凤凰蛋（搜我秒通过！）</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 页脚 -->
+        <div class="footer">
+            <p>蛋仔岛坐标：[经常在派对广场发呆] | 期待和你一起撞进决赛！</p>
+        </div>
+    </div>
+</body>
+</html>
